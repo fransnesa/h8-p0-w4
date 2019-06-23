@@ -2,7 +2,7 @@ function cariMedian(arr) {
   // you can only write your code here!
 var panjangData = arr.length
 var jawaban=0;
-for(var i=0; i < arr.length;i++){
+/*for(var i=0; i < arr.length;i++){
     for(var j=i+1; j < arr.length;j++){
         if(arr[i] > arr[j]){
             var temp = arr[i]
@@ -10,8 +10,9 @@ for(var i=0; i < arr.length;i++){
             arr[j] = temp
         }
     }
-}
-console.log(arr)
+    
+}*/
+//console.log(arr)
 if(panjangData%2!==0){
     jawaban = arr[Math.round(panjangData/2)-1]
 }
