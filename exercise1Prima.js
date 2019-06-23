@@ -1,7 +1,7 @@
 function angkaPrima(angka) {
   // you can only write your code here!
   var jawaban= true
-  if(angka < 1){
+  if(angka <= 1){
     jawaban = false
   }
   for(var i=2; i<angka; i++){
